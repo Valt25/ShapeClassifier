@@ -121,12 +121,7 @@ public class ShapeClassifier {
 
 	// P = 2l + 2w)
 	private int calculateRectanglePerimeter(int side1, int side2, int side3, int side4) {
-		if (side1 == side2) {
-
-			return (2 * side1) + (2 * side3);
-		} 
-
-		else if (side2 == side3) {
+		if (side1 == side3) {
 			return (2 * side1) + (2 * side2);
 		}
 
