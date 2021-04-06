@@ -195,14 +195,14 @@ public class ShapeClassifier {
 
 	// Classify four sides
 	private String classify4Parameters(int a, int b, int c, int d) {
-		if (a == b && c == d) {
-			if (a != c) {
-				return fourParamGuesses[1];
+		if (a == c && b == d) {
+			if (a != b) {
+				return fourParamGuesses[0];
 			}
 			else 
-				return fourParamGuesses[0];
-		}		
-		else if (b == d && c == a) {
+				return fourParamGuesses[1];
+		}
+		else if (a == b && c == d) {
 			return fourParamGuesses[0];
 		}
 		else if (b == c && a == d) {
