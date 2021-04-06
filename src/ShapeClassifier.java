@@ -70,10 +70,10 @@ public class ShapeClassifier {
 
 		// check the size guess
 
-		if (calcPerim > 200 && sizeGuess.equals("Large")) {
+		if (calcPerim > 100 && sizeGuess.equals("Large")) {
 			isSizeGuessCorrect = true;
 		}
-		else if (calcPerim < 10 && sizeGuess.equals("Small")) {
+		else if (calcPerim <= 100 && sizeGuess.equals("Small")) {
 			isSizeGuessCorrect = true;	
 		}
 		else { 
