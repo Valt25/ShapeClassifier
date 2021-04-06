@@ -36,7 +36,7 @@ public class ShapeClassifier {
 			}
 			break; 
 		case 2: 
-			shapeGuessResult = classify2Parameters(parameters[1], parameters[1]);
+			shapeGuessResult = classify2Parameters(parameters[0], parameters[1]);
 			if (shapeGuessResult.equals("Ellipse")) {
 				calcPerim = calculateEllipsePerimeter(parameters[0],parameters[1]);
 			}
