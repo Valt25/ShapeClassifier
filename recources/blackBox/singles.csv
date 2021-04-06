@@ -1,0 +1,9 @@
+Shape,Size,Even,Number of sides,Unique sides,Perimeter of sides,Product of side,,size matches,even matches,figure sides,uniq sides,sides eq,uniq sides eq,Expected result
+Circle,Small,Yes,2,2,>100,Odd,,FALSE,FALSE,2,1,TRUE,FALSE,No
+Rectangle,Large,No,3,3,<=100,Even,,FALSE,FALSE,4,4,FALSE,FALSE,No
+Isosceles,Small,No,4,4,>100,Even,,FALSE,FALSE,3,2,FALSE,FALSE,No
+Scalene,Small,No,1,1,<=100,Odd,,TRUE,TRUE,3,3,FALSE,FALSE,No
+Line,Large,Yes,1,1,>100,Even,,TRUE,TRUE,1,1,TRUE,TRUE,Yes
+Ellipse,Small,No,4,3,<=100,Even,,TRUE,FALSE,2,2,FALSE,FALSE,No
+Equilateral,Large,Yes,4,1,<=100,Even,,FALSE,TRUE,3,1,FALSE,TRUE,No
+Square,Large,Yes,3,1,<=100,Odd,,FALSE,FALSE,4,1,FALSE,TRUE,No
